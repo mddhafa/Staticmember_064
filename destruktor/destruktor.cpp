@@ -12,3 +12,9 @@ public:
     void isiData();
 };
 // Definisi Member function 
+angka::angka(int i) {// construktor
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
+
